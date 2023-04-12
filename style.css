@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+
+}
+:root{
+    --bg-color:rgb(50, 50, 194);
+}
+.home{
+    background-color: var(--bg-color);
+    height: 100vh;
+    background-attachment:fixed ;
+
+}
+.navBar {
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#logo {
+    justify-content: flex-start;
+}
+.navBar a{
+    text-decoration: none;
+    color: rgb(195, 204, 226);
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+@media (max-width:650px) {
+    .navBar a{
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+}
+.navBar a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    border-radius: 50%;
+}
+.myWorks{
+    margin-top: 10vh;
+    
+    margin-left: 20vw;
+    margin-right: 20vw;
+    
+}
+.myWorks span{
+    font-size:0.9rem;
+    
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.workSecond{
+    flex-direction: row-reverse;
+}
