@@ -32,13 +32,7 @@
     font-weight: 600;
     
 }
-@media (max-width:650px) {
-    .navBar a{
-        display: block;
-        font-size: 1.5rem;
-    }
-    
-}
+
 .navBar a:hover{
     text-decoration: underline;
     color: darkblue;
@@ -73,4 +67,79 @@
 }
 .workSecond{
     flex-direction: row-reverse;
+}
+.testimonialsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: black;
+    gap: 150px;
+    font-size: medium;
+
+
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px outset white;
+    
+
+}
+.testimonials img{
+    border-radius: 50%;
+}
+
+.rowError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.recentWork{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-right: 20vw;
+    margin-left: 20vw;
+
+}
+.recentWork span{
+    font-size: 0.7rem;
+    line-height: 0.2;
+}
+.recentWorkFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    
+}
+.contact{
+    background-color: black;
+    width: 100%;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width:650px) {
+    .navBar a{
+        display: block;
+        font-size: 1.5rem;
+    }
+    
 }
